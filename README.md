@@ -23,8 +23,9 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-* [ ] Improved interface/design
+* [x] Auto-hide keyboard after button click
 * [x] Instructions for using the app
+* Would like to make it so the instructions are hidden after list is filled
 
 ## Video Walkthrough
 
@@ -35,8 +36,7 @@ Here's a walkthrough of implemented user stories:
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
-
-Tracking variables and making sure everything is conssitent
+I had a good time building this app. It was nice to refresh my app-making skills. Struggled a bit with tracking variables/being consistent with variables.
 
 ## License
 
