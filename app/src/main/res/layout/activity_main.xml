@@ -34,18 +34,35 @@
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rvitems"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_width="356dp"
+        android:layout_height="482dp"
         android:layout_above="@+id/addTask"
+        android:layout_below="@+id/empty"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginBottom="12dp" />
+
+    <TextView
+        android:id="@+id/empty"
+        android:layout_width="372dp"
+        android:layout_height="92dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:layout_marginStart="0dp"
-        android:layout_marginLeft="0dp"
-        android:layout_marginTop="0dp"
-        android:layout_marginEnd="0dp"
-        android:layout_marginRight="0dp"
-        android:layout_marginBottom="0dp" />
+        android:layout_marginStart="18dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="21dp"
+        android:layout_marginRight="21dp"
+        android:gravity="center"
+        android:text="Welcome to ToDo!\nTo get started, add an item below.\nTo edit an item, tap once.\nTo delete an item, tap and hold.\nHave fun!" />
 </RelativeLayout>
