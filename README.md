@@ -24,7 +24,7 @@ The following **optional** features are implemented:
 The following **additional** features are implemented:
 
 * [ ] Improved interface/design
-* [ ] Instructiions for using the app
+* [x] Instructions for using the app
 
 ## Video Walkthrough
 
